@@ -460,7 +460,113 @@ audio{
     font-size: 3rem;
 }
 
+.cfooter{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
 .conteinertxt2 p{
     font-size: 1.2rem;
     line-height: 1.7rem;
+}
+
+.section-5{
+    color: yellow;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5 h1{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario{
+    border: solid yellow 3px;
+    border-radius: 3%;
+    width: 100%;
+    padding: 15%;
+    transition: 0.3s;
+}
+
+.divform0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    flex-direction: row;
+}
+
+.divform0 label{
+    margin-bottom: 15%;
+}
+
+.divform0 input{
+    margin-bottom: 7%;
+}
+
+.divform1, .divform2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formulario:hover{
+    box-shadow: yellow 0 0 3rem;
+    transition: 0.3s;
+}
+
+.formulario input{
+    margin-top: 5%;
+}
+
+.input1{
+    margin-top: 5%;
+    font-size: 150%;
+}
+
+.input2{
+    margin-top: 15%;
+    font-size: 150%;
+    margin-left: 35%;
+    border: solid yellow 3px;
+    background-color: transparent;
+    color: yellow;
+    padding: 5%;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input2:hover{
+    border: solid yellow 3px;
+    background-color: yellow;
+    color: black;
+    padding: 5%;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario label{
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+.C-formulario{
+    padding: 5%;
 }

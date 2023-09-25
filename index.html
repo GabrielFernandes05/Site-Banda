@@ -264,9 +264,32 @@
 
     <section id="contato" class="section-5">
         <h1>Contato</h1>
-        <div class="formulario">
+        <div class="C-formulario">
+            <form class="formulario">
+                <div class="divform0">
+                    <div class="divform1">
+                        <label for="name">Nome:</label>
+                        <label for="email">Email:</label>
+                        <label for="number">Número:</label>
+                    </div>
+                    
+                    <div class="divform2">
+                        <input class="input1" type="text" id="name" name="name" required>
+                        <input class="input1" type="email" id="email" name="email" required>
+                        <input class="input1" type="tel" id="number" name="number" pattern="[0-9]{10}" required>
+                    </div>
+                </div>
+                
+                <input class="input2" type="submit" value="Enviar">
+            </form>
         </div> <!-- formulario -->
     </section> <!-- section-5 -->
+    <div class="cfooter">
+        <footer>
+            &copy; Gabriel Fernandes
+        </footer>
+    </div>
+    
 </body>
 
 </html>
